@@ -1,0 +1,131 @@
+body {
+  background-image: url("yearupyoungprof.jpeg");
+  background-position: sticky;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow:auto;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-color: #eeff0062 !important;
+  height: 100vh !important;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(0, 3, 100);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #learnmore {
+  background-image: url("city.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow:auto;
+  max-width:fit-content;
+  width: 100%;
+  background-color:black;
+  color:rgb(185, 185, 185);
+  font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: gold;
+    color: rgb(148, 148, 148);
+  }
+  .opening {
+    background-color: rgb(69, 71, 138, 0.4);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    flex-direction: right;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  section {
+    background-color:rgb(0, 3, 100, 0.4);
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  footer {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .foot {
+    text-align: center;
+    font-size: 15px;
+  }
+  .sign { 
+    font-size: 10px;
+  }
+  button {
+    background-color: rgb(238, 255, 0);
+    color: darkblue;
+    align-items: center;
+    font-size: 25px;
+  }
+  button:hover{
+    background-color:darkblue;
+    color: rgb(238, 255, 0);
+  }
+  
+  .main {
+  height: 100% !important;
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+  justify-content: top;
+  width: 100%;
+  padding-bottom: 25px;
+  color: aliceblue;
+  }
+  
+  .main div {
+  border-radius: 0px !important;
+  background: rgba(21, 54, 143, 0.39);
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  position: relative;
+  border: 1px rgb(0, 0, 0) solid;
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  text-align: center;
+  font-size: 25px;
+  }
+  .clockpart
+  {
+  padding:10px !important;
+  min-width:60px !important;
+  
+  display: inline-block;
+  }
+  .clockmin
+  {
+  padding:0px !important;
+  width:5px !important;
+  min-width:5px !important;
+  
+  display: inline-block;
+  }
